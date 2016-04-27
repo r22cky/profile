@@ -1,0 +1,84 @@
+body {
+  background-color: lightgrey;
+  background-image: url(../images/colorful-abstract.jpg);
+  background-size: cover;
+  font-family: "Open_sans";
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+
+h2, h3 {
+  font-size: 26px;
+}
+
+a {
+  text-align: center;
+  color: black;
+  font-style: italic;
+  color: #414849;
+}
+
+a:hover {
+  color: #94BDE7;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+}
+
+td {
+    padding-bottom: 30px;
+}
+
+.fa {
+  font-size: 50px;
+  margin: 30px;
+}
+
+.padding-zero {
+  padding-left: 0px;
+}
+
+.profil {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.container {
+  width: 700px;   /* Set width */
+  margin: 0 auto; /* Automatically set left/right margins */
+}
+
+.card {
+  background-color: white;
+  border-radius: 5px;
+  padding : 50px;
+  margin: 20px;
+}
+
+.card {
+  font-size: 16px;
+  box-shadow: 2px 2px 2px #b8b9b9;
+}
+
+.card_title {
+  margin-top: 0px;
+  padding-bottom: 20px;
+}
+
+/* _________________ID CSS_________________ */
+
+#profil_block {
+  display: block;
+}
+
+#social_icons {
+  padding: 0px;
+}
